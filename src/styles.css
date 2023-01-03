@@ -1,0 +1,150 @@
+body {
+    background-image: url(./images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* overflow-x: hidden; */
+}
+
+
+.button {
+    background-image: url('./images/githublogo.png');
+    position: absolute;
+    border: 5px solid rgb(255, 255, 255);
+    color:black;
+    width: 150px;
+    height: 150px;
+    padding:0px 0px;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100%;
+    text-align: center;
+    background-size: cover;
+    transition: all .5s;
+    
+}
+
+.button:hover{
+    /* transition: all .5s; */
+    
+    background-color: rgb(119, 113, 113);
+    color:white;
+    border: 5px solid rgb(119, 113, 113);
+}
+/* .button:hover:active{
+    background-color: rgb(203, 203, 203);
+    border: 5px solid rgb(203, 203, 203);
+} */
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    /* transition: 0.5s; */
+}
+
+.a {
+    left: 70%;
+    top:5%;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    font-family: 'Trattatelo', fantasy;
+    letter-spacing: 2px;
+    
+
+}
+
+#top1{
+    top:92%;
+}
+#top2{
+    top:196%;
+}
+.scroll1{
+    left:45%;
+    position:absolute;
+    background-color: #8d7f94;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30%;
+    border: 2px solid #ffffff;
+    /* Green */
+    transition: all .25s;
+}
+.scroll1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+.scroll1 span::after {
+    content: '\21E9';
+    position: absolute;
+    opacity: 0;
+    bottom: -20px;
+    right: 10px;
+    transition: 0.5s;
+}
+
+.scroll1:hover {
+    background-color: #c4abd2;
+    /* Green */
+    transition: all .5s;
+}
+
+.scroll1:hover span {
+    padding-bottom: 17px;
+
+}
+
+.scroll1:hover span:after {
+    opacity: 1;
+    bottom: 0;
+
+}
+.placeholder1{
+    color:white;
+    bottom:-10%;
+    position: absolute;
+}
+.placeholder2{
+    color:white;
+    bottom:-120%;
+    position: absolute;
+}
+.placeholder3{
+    color:white;
+    bottom:-217%;
+    position: absolute;
+}
+
+.vid{
+    width:108px;
+    height:240px;
+    left:30%;
+    top:220%;
+    position:absolute;
+    border: 3px solid white;
+}
+
+p.text1{
+    color:white;
+    text-align: center;
+    transform: translateY(500%);
+}
+
+p.text2{
+    color:white;
+    text-align: center;
+    transform: translateY(800px);
+}
